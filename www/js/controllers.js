@@ -1,6 +1,6 @@
 'use strict';
 
-tvguide.controller('GeofencesController', ['$scope', '$http',
+tvguide.controller('TVGuideController', ['$scope', '$http',
     function ($scope, $http) {
 
 //        $scope.InitializePage = function () {
