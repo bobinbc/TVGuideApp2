@@ -1,5 +1,5 @@
 {
-  "name": "TVGuideApp",
+  "name": "TVGuideApp2",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/bobinbc/TVGuideApp.git"
+    "url": "https://github.com/bobinbc/TVGuideApp2.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/bobinbc/TVGuideApp/issues"
+    "url": "https://github.com/bobinbc/TVGuideApp2/issues"
   },
-  "homepage": "https://github.com/bobinbc/TVGuideApp",
+  "homepage": "https://github.com/bobinbc/TVGuideApp2",
   "dependencies": {
     "express": "^4.12.2"
   }
