@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<widget id="12" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>TV Guide App</name>
+    <icon src="app-icon.png" />
+    <description>
+        Check the weather and local time anywehere
+    </description>
+    <content src="index.html" />
+    <splash src="app-icon.png" width="320" height="480" />
+    <access origin="*" />
+    <preference name="webviewbounce" value="false" />
+    <preference name="UIWebViewBounce" value="false" />
+    <preference name="DisallowOverscroll" value="true" />
+    <preference name="BackupWebStorage" value="none" />
+
+    <preference name="SplashScreenDelay" value="10000" />
+    <!--
+  <feature name="StatusBar">
+    <param name="ios-package" value="CDVStatusBar" onload="true"/>
+  </feature>
+-->
+</widget>
