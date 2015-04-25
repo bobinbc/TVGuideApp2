@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 <widget id="12" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>TV Guide App</name>
+    <name>TV Guide</name>
     <icon src="app-icon.png" />
     <description>
-        Check the weather and local time anywehere
+        See what is running on TV
     </description>
     <content src="index.html" />
     <splash src="app-icon.png" width="320" height="480" />
