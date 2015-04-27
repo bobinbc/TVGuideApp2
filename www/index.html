@@ -12,35 +12,26 @@
     <div class="container">
         <div class="head">
             <div class="brandi">
-                <!--                <a  href="#/">World Info</a>-->
                 <p>TV Guide {{dataNow.Name}}</p>
 
                 <div>
                     <div class="content" data-ng-repeat="channel in dataNow.GridChannels" class="list-group-item">
-                        <!--                <span data-ng-bind="geofence.geofence_details.properties.name" />-->
 
                         <img ng-src={{channel.ChannelImages[0].ImageUrl}} height="40" width="40" alt={ {channel.ChannelImages[0].ImageTitle}} />
 
                         <table class="table">
                             <tr>
-                                <th class="name ">{{channel.CallLetters}}</th>
-                                <!--                                {{channel.Airing[0].AiringTime}}-->
-                                <!--                                <th class="time name" ng-bind="myDateInput"></th>-->
+                                <th class="name">{{channel.Channel}}-{{channel.CallLetters}}</th>
                             </tr>
 
                             <tr>
                                 <td class="prog">{{channel.Airings[0].Title}}</td>
-
                             </tr>
 
                             <tr>
                                 <td class="prog">{{channel.Airings[0].Category}}</td>
-
                             </tr>
-
                         </table>
-
-
                     </div>
                 </div>
 
