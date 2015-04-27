@@ -15,7 +15,7 @@
 */
 
 .content {
-    width: 500px;
+    width: 100%;
     height: 250px;
     border: 2px solid blue;
     background-color: #baf669;
